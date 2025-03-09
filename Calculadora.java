@@ -26,6 +26,11 @@ public class Calculadora {
         return (double) a / b;
     }
 
+    public static double potencia(int base, int exponente) {
+        System.out.println("El resultado es: ");
+        return Math.pow(base, exponente);
+    }
+
     public static double calculadora(int a, int b, int opcion) {
         switch (opcion) {
             case 1:
