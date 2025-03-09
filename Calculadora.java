@@ -31,6 +31,18 @@ public class Calculadora {
         return Math.pow(base, exponente);
     }
 
+    public static double media(int a, int b) {
+        System.out.println("El resultado es: ");
+        return (a + b) / 2.0;
+    }
+
+    public static int multiplicacion_de_3(int a, int b, int c) {
+        System.out.println("El resultado es: ");
+        return a * b * c;
+    }
+    
+    
+
     public static double calculadora(int a, int b, int opcion) {
         switch (opcion) {
             case 1:
